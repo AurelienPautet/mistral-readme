@@ -5,11 +5,12 @@ import { StepCard } from "@/components/StepCard";
 import { Step1Content } from "@/components/steps/Step1Content";
 import { AppState } from "@/types";
 import { Step2Content } from "@/components/steps/Step2Content";
+import { Step3Content } from "@/components/steps/Step3Content";
 
 const Steps = [
   { name: "Import Content", component: Step1Content },
   { name: "Select Sections", component: Step2Content },
-  { name: "Generate README", component: null },
+  { name: "Generate README", component: Step3Content },
 ];
 
 export default function Page() {
