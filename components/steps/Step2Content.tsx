@@ -22,7 +22,7 @@ const SectionToggle: React.FC<{
 }> = ({ title, description, selected, onToggle }) => {
   return (
     <div
-      className={`p-4 border rounded-lg cursor-pointer ${
+      className={`p-4 w-48 h-24 border rounded-lg cursor-pointer ${
         selected ? "border-primary bg-primary/10" : "border-gray-300"
       }`}
       onClick={onToggle}
@@ -57,7 +57,7 @@ const Step2Content: React.FC<StepContentProps> = ({
   };
   return (
     <div className="h-full flex flex-col mt-4">
-      <div className="grid  grid-cols-3 gap-4">
+      <div className="overflow-y-scroll justify-center flex flex-row gap-4 flex-wrap">
         {Sections.map((section) => {
           return (
             <SectionToggle

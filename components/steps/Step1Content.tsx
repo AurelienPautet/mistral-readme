@@ -26,7 +26,7 @@ const Step1Content: React.FC<StepContentProps> = ({
 
   return (
     <div className="h-full flex flex-col mt-4">
-      <div className="flex flex-col gap-4">
+      <div className="flex h-full overflow-y-scroll flex-col gap-4">
         <Field>
           <FieldLabel htmlFor="repo-url">Repository URL</FieldLabel>
           <Input

@@ -29,8 +29,8 @@ const Step3Content: React.FC<StepContentProps> = ({
         <MarkdownPreview content={appState.finalMarkdown || ""} />
       </div>
       <Button
-        disabled={appState.selectedSections.length === 0}
-        className="mt-auto mx-auto w-1/2"
+        disabled={!appState.finalMarkdown}
+        className="mt-auto mx-auto w-1/2 hover:bg-primary/80"
         onClick={() => {
           navigator.clipboard.writeText(appState.finalMarkdown || "");
         }}
