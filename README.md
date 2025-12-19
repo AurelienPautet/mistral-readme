@@ -12,7 +12,10 @@
 
 ## Demo
 
-![Application Demo](/public/demo.mov)
+
+
+https://github.com/user-attachments/assets/72729ef0-cd6c-4198-980d-8214bdeeef41
+
 
 Or try it yourself: [https://mistral-readme.vercel.app/](https://mistral-readme.vercel.app/)
 
